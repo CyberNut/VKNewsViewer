@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="com.example.vknewsviewer.viewgroups.PostWithImageLayout">
+
+    <View
+        android:id="@+id/topPanelBackground"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorLight" />
+
+    <View
+        android:id="@+id/bottomPanelBackground"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorLight" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/logo"
+        app:civ_border_color="@color/colorLight"
+        app:civ_border_width="2dp"
+        app:srcCompat="@drawable/jetbrains_logo"
+        tools:srcCompat="@drawable/jetbrains_logo" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/title_example"
+        android:textColor="@color/colorDarkText"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="JetBrains" />
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/date_example"
+        android:textColor="@color/colorLightText"
+        tools:text="25/09/2020" />
+
+    <TextView
+        android:id="@+id/contentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/content_example"
+        android:textSize="18sp"
+        tools:text="@string/content_example" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/image"
+        app:srcCompat="@drawable/image_example"
+        tools:srcCompat="@drawable/image_example" />
+
+    <ImageButton
+        android:id="@+id/likeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@null"
+        android:contentDescription="@string/like_button"
+        app:srcCompat="@drawable/ic_like_icon" />
+
+    <ImageButton
+        android:id="@+id/commentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@null"
+        android:contentDescription="@string/comment_button"
+        app:srcCompat="@drawable/anim_comment_button" />
+
+    <ImageButton
+        android:id="@+id/shareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@null"
+        android:contentDescription="@string/share_button"
+        app:srcCompat="@drawable/anim_share_button" />
+
+    <TextView
+        android:id="@+id/numberOfLikesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/colorLightText"
+        tools:text="5" />
+
+    <TextView
+        android:id="@+id/numberOfCommentsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/colorLightText"
+        tools:text="5" />
+
+</merge>

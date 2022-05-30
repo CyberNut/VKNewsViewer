@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="titleText" format="string" />
+    <attr name="dateText" format="string" />
+    <attr name="contentText" format="string" />
+    <attr name="numberOfLikes" format="integer" />
+    <attr name="numberOfComments" format="integer" />
+
+    <declare-styleable name="PostWithImageLayout">
+        <attr name="titleText" />
+        <attr name="dateText" />
+        <attr name="contentText" />
+        <attr name="numberOfLikes" />
+        <attr name="numberOfComments" />
+        <attr name="imageSourceLink" format="string" />
+    </declare-styleable>
+
+</resources>
